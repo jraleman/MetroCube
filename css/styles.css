@@ -6,16 +6,6 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
   font-family: 'Montserrat';
 }
 
-/*--------------------------------------------------
-    [SASS PLACEHOLDER]
-----------------------------------------------------*/
-
-/* Carousel Title */
-
-/* Carousel Subtitle */
-
-/* Carousel Position Left */
-
 /* Page on Scroll */
 
 .page-on-scroll .page-header {
@@ -119,11 +109,6 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
     display: none !important;
   }
 
-  .page-header .navbar-collapse.collapse.in {
-    display: block !important;
-    overflow-y: auto !important;
-  }
-
   .page-header .navbar-nav {
     margin: 0;
     float: none !important;
@@ -201,35 +186,6 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
 
 @media (min-width: 992px) {
   /* 992px */
-
-  .page-on-scroll .page-header {
-    /* Navbar Brand */
-    /* Navbar Nav */
-  }
-
-  .page-on-scroll .page-header .navbar-brand {
-    height: 70px;
-    max-height: 70px;
-    line-height: 49px;
-    transition-duration: 400ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  }
-
-  .page-on-scroll .page-header .navbar-nav li {
-    padding: 19px 1px;
-    transition-duration: 400ms;
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-  }
-
-  .page-on-scroll .page-header .navbar-nav li>a {
-    color: #0067B2;
-  }
-
-  .page-on-scroll .page-header .navbar-nav li.active>a,  .page-on-scroll .page-header .navbar-nav li>a:hover {
-    border: 1px solid #e5e5e5;
-  }
 }
 
 /*--------------------------------------------------
@@ -246,131 +202,10 @@ a:focus {
   margin-top: 0;
 }
 
-/* go2top */
-
-/*--------------------------------------------------
-	[FORM CONTROL]
-----------------------------------------------------*/
-
-/* Set displays an element as in inline0level flex container */
-
-/* Focus stylesheet effect for 'input' */
-
-/* Media Queries */
-
-/* No Space Row */
-
-/*--------------------------------------------------
-	[BUTTONS]
-----------------------------------------------------*/
-
-/* Button Bordered */
-
-/* Button Bordered Primary */
-
-/* Button Danger */
-
-/* Button Bordered Danger */
-
-/*--------------------------------------------------
-	[SPACES]
-----------------------------------------------------*/
-
-/* 'margin-bottom' Space */
-
-/* 'margin-bottom' Space for tablet view */
-
-/* 'margin-bottom' Space for mobile view */
-
-/*--------------------------------------------------
-	[HEADING]
-----------------------------------------------------*/
-
-/*--------------------------------------------------
-	[HEADING LEFT]
-----------------------------------------------------*/
-
-/*--------------------------------------------------
-	[SUBSCRIBE]
-----------------------------------------------------*/
-
-/*--------------------------------------------------
-	[SERVICES]
-----------------------------------------------------*/
-
-/*--------------------------------------------------
-	[FEATURES]
-----------------------------------------------------*/
-
-/*--------------------------------------------------
-	[TEAM]
-----------------------------------------------------*/
-
 /* Stylesheet design for above 992px */
 
 @media (min-width: 992px) {
   /* 992px */
-}
-
-/*--------------------------------------------------
-	[CLIENTS]
-----------------------------------------------------*/
-
-.clients {
-  /* Clients Quotes */
-}
-
-.clients .clients-quotes {
-  text-align: center;
-  position: relative;
-  background: #f7fafd;
-  padding: 40px 0 100px;
-}
-
-.clients .clients-quotes:before {
-  top: -3px;
-  left: 50%;
-  width: 0;
-  height: 0;
-  content: " ";
-  position: absolute;
-  margin-left: -15px;
-  border-style: solid;
-  border-width: 15px 15px 0 15px;
-  border-color: #3194a4 transparent transparent transparent;
-}
-
-.clients .clients-quotes .client-quote {
-  display: none;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.clients .clients-quotes .client-quote.active {
-  display: block;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.clients .clients-quotes .client-quote p {
-  padding: 0 20%;
-  font-size: 19px;
-  margin-bottom: 25px;
-  color: #8693a7;
-}
-
-.clients .clients-quotes .client-quote h4 {
-  color: #5f6f77;
-  font-size: 20px;
-  margin: 0 0 10px;
-}
-
-.clients .clients-quotes .client-quote span {
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #f78f1e;
 }
 
 /*--------------------------------------------------
@@ -379,18 +214,6 @@ a:focus {
 
 .portfolio {
   padding: 100px 0 100px 0;
-}
-
-/*--------------------------------------------------
-	[PRICING]
-----------------------------------------------------*/
-
-/* Stylesheet design for above 992px */
-
-@media (min-width: 992px) {
-  /* 992px */
-
-  /* Prcing Red */
 }
 
 /*--------------------------------------------------
@@ -418,8 +241,6 @@ a:focus {
   text-transform: uppercase;
   color: #fff;
 }
-
-
 
 .footer-copyright p {
   margin-bottom: 0;
