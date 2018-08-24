@@ -295,6 +295,14 @@ a:focus {
   color: #ffffff;
 }
 
+.footer-copyright p a {
+  color: #ffffff;
+}
+
+.footer-copyright p a:hover {
+  color: #c4c4c4;
+}
+
 .footer-copyright p strong a {
   color: #f78f1e;
 }
