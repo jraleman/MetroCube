@@ -1,4 +1,4 @@
-var Layout = function () {
+jQuery(document).ready(function() {
 
     // detect mobile device
     var isMobileDevice = function() {
@@ -182,7 +182,5 @@ var Layout = function () {
             };
         },
     };
-    jQuery(document).ready(function() {
-        Layout.init();
-    });
-}();
+
+});
