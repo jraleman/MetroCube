@@ -542,7 +542,7 @@ a:focus {
 
 .cube-portfolio .portfolio-icons i:hover {
   color: #fff;
-  background: #d15d5d;
+  background: #f78f1e;
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
