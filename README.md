@@ -1,8 +1,9 @@
-# Metronitope
+# MetroCube
 
 ## About
 
-Metronic-One-Page-2 theme, but just the isotope part. :)
+Strip down version of Metronic OnePage theme.
+Used as the GUI App Store for Ford Motors' Hackathon.
 
 ## Attributions
 
