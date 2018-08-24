@@ -1,0 +1,23 @@
+{
+  "name": "metrocube",
+  "version": "1.0.0",
+  "description": "Strip down version of Metronic OnePage theme.",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jraleman/MetroCube.git"
+  },
+  "author": "jraleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jraleman/MetroCube/issues"
+  },
+  "homepage": "https://jraleman.com/MetroCube"
+}
