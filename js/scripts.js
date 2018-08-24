@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+var Scripts = function () {
 
     // detect mobile device
     var isMobileDevice = function() {
@@ -183,4 +183,4 @@ jQuery(document).ready(function() {
         },
     };
 
-});
+}();
