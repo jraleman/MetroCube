@@ -18,16 +18,16 @@
         gapHorizontal: 20,
         gapVertical: 20,
         gridAdjustment: 'responsive',
-        mediaQueries: [{
-            width: 800,
-            cols: 4
-        }, {
-            width: 600,
-            cols: 2
-        }, {
-            width: 320,
-            cols: 1
-        }],
+        // mediaQueries: [{
+        //     width: 800,
+        //     cols: 4
+        // }, {
+        //     width: 600,
+        //     cols: 2
+        // }, {
+        //     width: 320,
+        //     cols: 1
+        // }],
         caption: 'zoom',
         displayType: 'lazyLoading',
         displayTypeSpeed: 100

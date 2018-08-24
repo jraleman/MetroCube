@@ -16,7 +16,7 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
 }
 
 .page-on-scroll .page-header .navbar {
-  background: inherit;
+  background: #ffffff;
 }
 
 .page-header {
@@ -58,6 +58,14 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+.page-header .navbar-brand .logo {
+  margin-top: 12.8px;
+}
+
+.page-header .navbar-brand .logo strong {
+  padding-right: 2px;
+}
+
 .page-header .navbar-brand img {
   width: 115px;
   height: auto;
@@ -76,12 +84,17 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
 }
 
 .page-header .navbar-nav li>a {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 500;
   letter-spacing: 1px;
   border: 1px solid transparent;
   text-transform: uppercase;
   /* color: #fff; */
+}
+
+.page-header .navbar-nav li.active>a {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .page-header .navbar-nav li.active>a,.page-header .navbar-nav li>a:hover {
@@ -107,6 +120,11 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
 
   .page-header .navbar-collapse.collapse {
     display: none !important;
+  }
+
+  .page-header .navbar-collapse.collapse.in {
+    display: block !important;
+    overflow-y: auto !important;
   }
 
   .page-header .navbar-nav {
@@ -186,6 +204,35 @@ body h1,body h2,body h3,body h4,body h5,body h6 {
 
 @media (min-width: 992px) {
   /* 992px */
+
+  .page-on-scroll .page-header {
+    /* Navbar Brand */
+    /* Navbar Nav */
+  }
+
+  .page-on-scroll .page-header .navbar-brand {
+    height: 70px;
+    max-height: 70px;
+    line-height: 49px;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+
+  .page-on-scroll .page-header .navbar-nav li {
+    padding: 19px 1px;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+
+  .page-on-scroll .page-header .navbar-nav li>a {
+    color: #0067B2;
+  }
+
+  .page-on-scroll .page-header .navbar-nav li.active>a,  .page-on-scroll .page-header .navbar-nav li>a:hover {
+    border: 1px solid #e5e5e5;
+  }
 }
 
 /*--------------------------------------------------
@@ -289,6 +336,10 @@ a:focus {
   /* Portfolio Icons */
 }
 
+#grid-container {
+  max-width: 85% !important;
+}
+
 .cube-portfolio .cbp-l-filters-alignCenter .cbp-filter-item {
   font-size: 14px;
   padding: 6px 15px;
@@ -304,6 +355,14 @@ a:focus {
 .cube-portfolio .cbp-l-filters-alignCenter .cbp-filter-item-active {
   color: #fff;
   background: #0067B2;
+}
+
+.cube-portfolio .cbp-title {
+  text-align: center;
+}
+
+.cube-portfolio .cbp-title strong {
+  padding-right: 2px;
 }
 
 .cube-portfolio .cbp-caption .cbp-caption-hover-gradient {
